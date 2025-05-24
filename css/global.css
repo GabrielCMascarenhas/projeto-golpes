@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #03223C;
+  --text-primary-color: #fff;
+  --text-secondary-color: #ececec;
+  --background-color: #010B15;
+  --gradient-background: linear-gradient(to bottom, #E6D114, #E68C18);
+}
+
+body {
+  font-family: 'Roboto', 'Poppins', sans-serif;
+  background: var(--background-color);
+  color: var(--text-primary-color);
+  margin: 0px;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}

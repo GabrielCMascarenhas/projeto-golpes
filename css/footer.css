@@ -1,0 +1,23 @@
+.footer {
+  background: var(--primary-color);
+}
+
+.container-contato {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.container-contato h2{
+  font-size: 3rem;
+  grid-column: 1 / -1;
+  margin-bottom: 2.7rem;
+}
+
+.container-contato p {
+  font-size: 1.8rem;
+  color: var(--text-secondary-color);
+}

@@ -1,0 +1,36 @@
+.cartaz {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  position: relative;
+  gap: 200px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.cartaz > img {
+  width: 275px;
+}
+
+.cartaz p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.cartaz p:first-child{
+  margin-bottom: 1.5rem;
+}
+
+.cartaz p span{
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  background-image: var(--gradient-background);
+  background-clip: text;
+  color: transparent;
+}
+
+.cartaz div {
+  justify-self: center;
+}

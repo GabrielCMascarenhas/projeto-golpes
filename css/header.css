@@ -1,0 +1,35 @@
+.header {
+  background: var(--primary-color);
+}
+
+.container-menu {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2.2rem 1.25rem;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.header-menu a {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--text-secondary-color);
+  padding: 0.63rem 1rem;
+}
+
+.header-menu a:hover {
+  background-image: var(--gradient-background);
+  background-clip: text;
+  color: transparent;
+}
+
+.container-menu img{
+  width: 39px;
+}

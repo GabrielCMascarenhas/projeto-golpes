@@ -1,0 +1,58 @@
+.introducao {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 5rem;
+  margin: 0 auto;
+  padding: 4.5rem 1.25rem;
+}
+
+.introducao h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.introducao h1 strong {
+  font-size: 4.5rem;
+  letter-spacing: 6px;
+  background-image: linear-gradient(to bottom, #E6D114, #E68C18,#E68C18);
+  background-clip: text;
+  color: transparent;
+  padding-left: 4rem;
+}
+
+.introducao > div {
+  justify-self: center;
+}
+
+.introducao img {
+  justify-self: center;
+  width: 250px;
+}
+
+.introducao h1::before {
+  content: "";
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background: url('../img/detalhe-x.svg') no-repeat;
+  position: absolute;
+  top: -5px;
+  right: -15px;
+}
+
+.introducao h1::after {
+  content: "";
+  display: inline-block;
+  width: 27.5px;
+  height: 46.5px;
+  background: url('../img/detalhe-traco.svg') no-repeat;
+  position: absolute;
+  bottom: -10px;
+  left: -25px;
+}

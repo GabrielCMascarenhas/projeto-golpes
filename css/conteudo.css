@@ -1,0 +1,38 @@
+.conteudo {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.conteudo h2 {
+  font-size: 2.25rem;
+  grid-column: 1;
+  background-image: var(--gradient-background);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 1rem; 
+}
+
+.conteudo p {
+  grid-column: 1;
+  margin-bottom: 3rem; 
+}
+
+.conteudo p {
+  font-size: 1.5rem;
+  line-height: 1.15;
+  width: 65ch;
+  color: var(--text-secondary-color);
+}
+
+.peixe {
+  width: 239px;
+  height: 722px;
+  right: 0px;
+  bottom: 0px;
+  background: url('../img/peixe.svg') no-repeat;
+  position: absolute;
+}
